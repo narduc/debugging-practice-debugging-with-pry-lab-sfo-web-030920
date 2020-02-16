@@ -11,9 +11,8 @@ end
 
 def turtle_traits(turtles)
   turtles.map do |turtle|
-    ele = turtle[:traits]
-    ele.each do |trait|
-      puts trait
+    turtle[:traits].each do |trait|
+      trait
     end
   end
 end
